@@ -33,7 +33,7 @@ public class Clienti {
     public Cliente  search(int key) throws Exception{
         if(clienti.containsKey(key))
             return clienti.get(key);
-        throw new Exception("Cliente non trovato");
+        throw new Exception("Cliente non trovato nella ricerca");
     }
 
 }
